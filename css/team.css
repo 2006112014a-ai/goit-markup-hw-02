@@ -1,0 +1,13 @@
+#team {
+    padding: 80px 20px;
+    background-color: #f4f4fd;
+}
+
+#team ul {
+    display: flex;
+    gap: 20px;
+}
+
+#team li {
+    text-align: center;
+}

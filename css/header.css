@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header a {
+    font-weight: 500;
+}
+
+header a:hover,
+header a:focus {
+    color: #404bbf;
+}
