@@ -1,0 +1,13 @@
+#portfolio {
+    padding: 80px 20px;
+}
+
+#portfolio ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#portfolio li {
+    width: calc((100% - 40px) / 3);
+}
