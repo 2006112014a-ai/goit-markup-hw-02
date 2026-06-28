@@ -1,19 +1,27 @@
-#hero {
-    text-align: center;
-    padding: 100px 20px;
-    background-color: #2e2f42;
-    color: #ffffff;
+.hero {
+    background-color: #2E2F42;
 }
 
-#hero button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    border: none;
-    background-color: #4d5ae5;
-    color: #ffffff;
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
 
-#hero button:hover,
-#hero button:focus {
-    background-color: #404bbf;
+.hero-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
 }

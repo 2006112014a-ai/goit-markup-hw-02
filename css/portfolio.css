@@ -1,13 +1,25 @@
-#portfolio {
-    padding: 80px 20px;
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
 
-#portfolio ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+.portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
-#portfolio li {
-    width: calc((100% - 40px) / 3);
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
